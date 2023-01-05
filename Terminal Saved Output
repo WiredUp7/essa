@@ -1,0 +1,140 @@
+Last login: Thu Jan  5 11:06:30 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Markos-MBP:~ marko$ npm i -g typescript
+npm notice 
+npm notice New major version of npm available! 8.19.2 -> 9.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.2.0
+npm notice Run npm install -g npm@9.2.0 to update!
+npm notice 
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/typescript
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/typescript'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T11_26_04_732Z-debug-0.log
+Markos-MBP:~ marko$ npm install -g npm@9.2.0
+npm ERR! code EACCES
+npm ERR! syscall rename
+npm ERR! path /usr/local/lib/node_modules/npm
+npm ERR! dest /usr/local/lib/node_modules/.npm-i9nnxROI
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/npm' -> '/usr/local/lib/node_modules/.npm-i9nnxROI'
+npm ERR!  [Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/npm' -> '/usr/local/lib/node_modules/.npm-i9nnxROI'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'rename',
+npm ERR!   path: '/usr/local/lib/node_modules/npm',
+npm ERR!   dest: '/usr/local/lib/node_modules/.npm-i9nnxROI'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T11_28_15_812Z-debug-0.log
+Markos-MBP:~ marko$ $ sudo npm i -g typescript
+-bash: $: command not found
+Markos-MBP:~ marko$ npm i -g typescript
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/typescript
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/typescript'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T11_30_19_319Z-debug-0.log
+Markos-MBP:~ marko$ testcafe examples
+-bash: testcafe: command not found
+Markos-MBP:~ marko$ npm i -g typescript
+npm ERR! code EACCES
+npm ERR! syscall mkdir
+npm ERR! path /usr/local/lib/node_modules/typescript
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'
+npm ERR!  [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/typescript'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'mkdir',
+npm ERR!   path: '/usr/local/lib/node_modules/typescript'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T11_33_25_154Z-debug-0.log
+Markos-MBP:~ marko$ sudo npm install -g typescript
+Password:
+^[[C(#########⠂⠂⠂⠂⠂⠂⠂⠂⠂) ⠇ reify:typescript: sill audit bulk request { typescrip
+added 1 package, and audited 2 packages in 11s
+
+found 0 vulnerabilities
+Markos-MBP:~ marko$ pm i
+-bash: pm: command not found
+Markos-MBP:~ marko$ npm i
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/marko/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/marko/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T13_11_22_545Z-debug-0.log
+Markos-MBP:~ marko$ sudo dpm i
+sudo: dpm: command not found
+Markos-MBP:~ marko$ sudo npm i
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/marko/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/marko/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/marko/.npm/_logs/2023-01-05T13_11_49_800Z-debug-0.log
+Markos-MBP:~ marko$ $ cd '/c/Users/j-c.chouinard/My First Git Project'
+-bash: $: command not found
+Markos-MBP:~ marko$ cd /Users/marko/CV 
+Markos-MBP:CV marko$ 
